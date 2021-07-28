@@ -1,8 +1,11 @@
 <template>
   <div>
   <img class="logo" alt="logo" src="../assets/download.jpg" />
-  <div class="resolve">
-    <img alt="resolve" src="../assets/progress.png" />
+  <div class="card">
+  <div class="progress">
+    
+    <img class="image" alt="progress" src="../assets/progress.png" />
+    
     <div class="text">
       <h4> Dear Customer </h4>
       <div>
@@ -10,6 +13,7 @@
         <p>We are working speedily to resolve it. To follow up on your complaint</p>
         <p>please send an SMS to 655.</p>
       </div>
+    </div>
     </div>
   </div>
   </div>
@@ -23,24 +27,33 @@ export default {
 
 
 <style scoped>
-.resolve {
+.progress {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 10%;
 }
 .logo {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 50px;
+  left: 270px;
 }
-
+.card {
+  background-color: white;
+  border: 1px solid #ceca58;
+  border-radius: 12px;
+  width: 60%;
+  margin: 10% 20%;
+}
 .text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 60px 40px;
+}
+.image {
+  margin: 60px 0 30px 30px;
 }
 
 </style>

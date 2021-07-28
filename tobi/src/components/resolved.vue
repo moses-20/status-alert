@@ -39,9 +39,20 @@ export default {
   justify-content: center;
   align-items: center;
   margin-left: 30px;
+  margin-top: 20px;
 }
 .vl {
   border-left: 1px solid black;
   height: 500px;
+}
+.container {
+  background-color: white;
+  border: 1px solid #12d84d;
+  padding: 8px;
+  border-radius: 12px;
+  margin-left: 50px;
+}
+.container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 </style>
