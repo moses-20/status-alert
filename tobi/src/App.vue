@@ -1,14 +1,14 @@
 <template>
-  <resolved />
+  <inProgress />
 </template>
 
 <script>
-import  resolved from './components/resolved.vue'
+import  inProgress from './components/inProgress.vue'
 
 export default {
   name: 'App',
   components: {
-    resolved
+    inProgress
   }
 }
 </script>

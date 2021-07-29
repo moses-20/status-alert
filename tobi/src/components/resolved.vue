@@ -62,7 +62,7 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 100px 0 110px 50px;
+  margin: 100px 0 130px 50px;
   width: 35%;
 }
 .container:hover {
@@ -72,9 +72,19 @@ export default {
   -webkit-filter: brightness(111%) contrast(135%) invert(67%) sepia(35%) hue-rotate(75deg) saturate(4577%);
   filter: brightness(111%) contrast(111%) invert(67%) sepia(35%) hue-rotate(75deg) saturate(4577%);
 }
+a {
+  color: red;
+  text-decoration: none;
+}
 footer {
   background: black;
   color: white;
   padding: 20px;
+  font-size: 13px;
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  width: 96%;
+  height: 50px;
 }
 </style>

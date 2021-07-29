@@ -73,9 +73,27 @@ export default {
 .strong {
   color: #ce9603;
 }
+a {
+  color: red;
+  text-decoration: none;
+}
 footer {
   background: black;
   color: white;
   padding: 20px;
+  font-size: 13px;
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  width: 96%;
+  height: 50px;
+}
+@media only screen and (max-width: 1200px) {
+  .logo {
+    left: auto;
+    top: auto;
+    
+  }
+
 }
 </style>

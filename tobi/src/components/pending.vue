@@ -68,9 +68,19 @@ export default {
   -webkit-filter: brightness(91%) contrast(126%) invert(21%) sepia(99%) hue-rotate(355deg) saturate(6463%);
   filter: brightness(91%) contrast(126%) invert(21%) sepia(99%) hue-rotate(355deg) saturate(6463%);
 }
+a {
+  color: red;
+  text-decoration: none;
+}
 footer {
   background: black;
   color: white;
   padding: 20px;
+  font-size: 13px;
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  width: 96%;
+  height: 50px;
 }
 </style>
