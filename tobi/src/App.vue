@@ -1,5 +1,5 @@
 <template>
-  <resolved  />
+  <resolved />
 </template>
 
 <script>
